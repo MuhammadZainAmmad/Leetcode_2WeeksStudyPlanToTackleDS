@@ -1,0 +1,5 @@
+# MyFirst ==> 13/14 test cases 
+SELECT *
+FROM Patients 
+WHERE conditions LIKE '% DIAB1%' OR
+      conditions LIKE 'DIAB1%'
